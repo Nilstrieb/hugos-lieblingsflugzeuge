@@ -16,6 +16,7 @@ class ModelImage extends Component {
     }
 
     render() {
+        //const style = {backgroundImage: `url('/img/${this.state.img}')`};
         return (
             <a href="" className="model">
                 <img src={this.state.img} alt={this.state.name}/>

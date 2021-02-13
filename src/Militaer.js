@@ -1,7 +1,7 @@
 import React from 'react';
 import ModelImage from './Plane'
-import f22 from './img/raptor-1040097_1920.png'
-import harrier from './img/av-8b-harrier-1986422_1920.jpg'
+import f22 from './img/f22.png'
+import harrier from './img/harrier.jpg'
 
 class Modern extends React.Component {
     render() {
