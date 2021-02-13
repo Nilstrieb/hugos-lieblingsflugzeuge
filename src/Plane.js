@@ -1,4 +1,7 @@
-import React, {Component} from "react";
+import React, {Component} from 'react';
+import {
+    Route, NavLink, HashRouter
+} from 'react-router-dom'
 import './Plane.css'
 
 
@@ -17,12 +20,12 @@ class ModelImage extends Component {
 
     render() {
         return (
-            <a href="" className="model">
+            <NavLink to={'/flugzeug/' + this.state.name} className="model">
                 <img src={process.env.PUBLIC_URL + '/img/' + this.state.src} alt={this.state.name}/>
                 <div className="model-info">
                     <span className="model-info-text">{this.state.name}</span>
                 </div>
-            </a>
+            </NavLink>
         );
     }
 }

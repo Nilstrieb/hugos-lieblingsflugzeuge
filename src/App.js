@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component} from 'react';
 import {
     Route, NavLink, HashRouter
 } from 'react-router-dom'
@@ -17,7 +17,7 @@ class App extends Component {
                     </header>
                     <main>
                         <Route exact path="/" component={Home}/>
-                        <Route path="/flieger-modern" component={Modern}/>
+                        <Route path="/militaer/modern" component={Modern}/>
                     </main>
                     <Footer/>
                 </div>
@@ -43,7 +43,7 @@ class Navigation extends Component {
                             <NavLink to="/">Zwischenkriegszeit</NavLink>
                             <NavLink to="/">Zweiter Weltkrieg</NavLink>
                             <NavLink to="/">Kalter Krieg</NavLink>
-                            <NavLink to="/flieger-modern">Moderne</NavLink>
+                            <NavLink to="/militaer/modern">Moderne</NavLink>
                         </div>
                     </li>
                     <li>
