@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hugos-lieblingsflugzeuge/static/css/main.241b79e6.chunk.css",
+    "main.js": "/hugos-lieblingsflugzeuge/static/js/main.283c4b0a.chunk.js",
+    "main.js.map": "/hugos-lieblingsflugzeuge/static/js/main.283c4b0a.chunk.js.map",
+    "runtime-main.js": "/hugos-lieblingsflugzeuge/static/js/runtime-main.b33b4f25.js",
+    "runtime-main.js.map": "/hugos-lieblingsflugzeuge/static/js/runtime-main.b33b4f25.js.map",
+    "static/js/2.9393055b.chunk.js": "/hugos-lieblingsflugzeuge/static/js/2.9393055b.chunk.js",
+    "static/js/2.9393055b.chunk.js.map": "/hugos-lieblingsflugzeuge/static/js/2.9393055b.chunk.js.map",
+    "index.html": "/hugos-lieblingsflugzeuge/index.html",
+    "static/css/main.241b79e6.chunk.css.map": "/hugos-lieblingsflugzeuge/static/css/main.241b79e6.chunk.css.map",
+    "static/js/2.9393055b.chunk.js.LICENSE.txt": "/hugos-lieblingsflugzeuge/static/js/2.9393055b.chunk.js.LICENSE.txt",
+    "static/media/av-8b-harrier-1986422_1920.e16c5cf3.jpg": "/hugos-lieblingsflugzeuge/static/media/av-8b-harrier-1986422_1920.e16c5cf3.jpg",
+    "static/media/raptor-1040097_1920.ce44789d.png": "/hugos-lieblingsflugzeuge/static/media/raptor-1040097_1920.ce44789d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b33b4f25.js",
+    "static/js/2.9393055b.chunk.js",
+    "static/css/main.241b79e6.chunk.css",
+    "static/js/main.283c4b0a.chunk.js"
+  ]
+}
