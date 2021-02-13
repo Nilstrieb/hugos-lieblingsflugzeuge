@@ -1,13 +1,12 @@
-import React from 'react';
+import React, {Component} from "react";
 import {
     Route, NavLink, HashRouter
 } from 'react-router-dom'
 import './app.css';
-import './template.css'
 import Modern from "./Militaer";
 import Home from "./Home";
 
-class App extends React.Component {
+class App extends Component {
     render() {
         return (
             <HashRouter>
@@ -29,7 +28,7 @@ class App extends React.Component {
 
 export default App;
 
-class Navigation extends React.Component {
+class Navigation extends Component {
     render() {
         return (
             <nav>
@@ -78,11 +77,11 @@ class Navigation extends React.Component {
     }
 }
 
-class Footer extends React.Component {
+class Footer extends Component {
     render() {
         return (
             <footer>
-                <div>hi</div>
+                <div>&copy; Hugo</div>
             </footer>
         )
     }
