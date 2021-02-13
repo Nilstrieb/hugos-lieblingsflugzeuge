@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hugos-lieblingsflugzeuge/static/css/main.59edd118.chunk.css",
-    "main.js": "/hugos-lieblingsflugzeuge/static/js/main.6fe4f93e.chunk.js",
-    "main.js.map": "/hugos-lieblingsflugzeuge/static/js/main.6fe4f93e.chunk.js.map",
+    "main.js": "/hugos-lieblingsflugzeuge/static/js/main.d219f5db.chunk.js",
+    "main.js.map": "/hugos-lieblingsflugzeuge/static/js/main.d219f5db.chunk.js.map",
     "runtime-main.js": "/hugos-lieblingsflugzeuge/static/js/runtime-main.b33b4f25.js",
     "runtime-main.js.map": "/hugos-lieblingsflugzeuge/static/js/runtime-main.b33b4f25.js.map",
     "static/js/2.3eb25868.chunk.js": "/hugos-lieblingsflugzeuge/static/js/2.3eb25868.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b33b4f25.js",
     "static/js/2.3eb25868.chunk.js",
     "static/css/main.59edd118.chunk.css",
-    "static/js/main.6fe4f93e.chunk.js"
+    "static/js/main.d219f5db.chunk.js"
   ]
 }
