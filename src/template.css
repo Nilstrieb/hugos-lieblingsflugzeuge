@@ -1,0 +1,96 @@
+:root {
+    --nav-color: rgb(176, 194, 206);
+    --nav-hover-color: darkgrey;
+}
+
+header {
+    grid-area: header;
+}
+
+header h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Navigation*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: var(--nav-color);
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    height: 50px;
+}
+
+/*main ul*/
+nav ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*nav li item*/
+nav ul li {
+    float: left;
+    border-right: 1px solid gray;
+    height: 100%;
+    width: 15%;
+    position: relative;
+    display: inline-block;
+
+    font-size: 1.5em;
+    background-color: var(--nav-color);
+    cursor: pointer;
+    margin: auto;
+}
+
+/*nav li item on hover*/
+nav ul li:hover {
+    background-color: darkgray;
+    color: var(--nav-hover-color);
+    transition-duration: 0.4s;
+}
+
+/*all nav button*/
+nav ul li button {
+    display: block;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color: var(--nav-color);
+    border: none;
+    cursor: pointer;
+}
+
+/*all nav button focus - remove outline so it looks like a normal link*/
+nav ul li button:focus {
+    outline: 0;
+}
+
+/*all nav a hover*/
+nav ul li button:hover {
+    background-color: var(--nav-hover-color);
+}
+
+/*drop menu*/
+nav ul li div {
+    display: none;
+    background-color: var(--nav-color);
+    z-index: 1;
+    width: 100%;
+}
+
+/*drop menu main hover*/
+nav ul li:hover div {
+    display: block;
+}
+
+/*drop menu button*/
+nav ul li div button {
+    padding: 8px 0 8px 0;
+}
