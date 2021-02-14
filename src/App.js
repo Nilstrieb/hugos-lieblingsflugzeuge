@@ -46,7 +46,7 @@ class Navigation extends Component {
                     <li>
                         <NavLink to="/flugzeuge/militaer">Militärflugzeuge</NavLink>
                         <div className="content">
-                            <NavLink to="/flugzeuge/militaer/erster_weltkrieg">Erste Weltkrieg</NavLink>
+                            <NavLink to="/flugzeuge/militaer/erster_weltkrieg">Erster Weltkrieg</NavLink>
                             <NavLink to="/flugzeuge/militaer/zwischenkriegszeit">Zwischenkriegszeit</NavLink>
                             <NavLink to="/flugzeuge/militaer/zweiter_weltkrieg">Zweiter Weltkrieg</NavLink>
                             <NavLink to="/flugzeuge/militaer/kalter_krieg">Kalter Krieg</NavLink>
@@ -71,7 +71,7 @@ class Navigation extends Component {
                         </div>
                     </li>
                     <li>
-                        <NavLink to="/flugzeuge/speziell">Spezielle</NavLink>
+                        <NavLink to="/flugzeuge/spezielle">Spezielle</NavLink>
                         <div className="content">
                             <NavLink to="/flugzeuge/spezielle/helikopter">Helikopter</NavLink>
                             <NavLink to="/flugzeuge/spezielle/zeppeline">Zeppeline</NavLink>

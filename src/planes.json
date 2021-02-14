@@ -4,9 +4,7 @@
     "img": "f22.png",
     "category": "militaer/modern/",
     "description": "Die F-22 Raptor ist ein Kampfflugzeug der 6. Generation der USA. Durch seine moderne Computersteuerung und Tarnkappentechnik ist es der Herr der Lüfte",
-    "tags": [
-      "fav"
-    ]
+    "tags": []
   },
   {
     "name": "AV-8B Harrier",
@@ -22,6 +20,82 @@
     "img": "a380.jpg",
     "category": "airliner/airbus/",
     "description": "Die A380 ist das grösste Passagierflugzeug der Welt.",
-    "tags": ["fav"]
+    "tags": [
+      "fav"
+    ]
+  },
+  {
+    "name": "Flugzeug Wrack 1",
+    "img": "wrack1.jpg",
+    "category": "spezielle/andere/",
+    "description": "Das Wrack von einem abgestürzten Flugzeug.",
+    "tags": []
+  },
+  {
+    "name": "Doppeldecker 1",
+    "img": "doppeldecker1.jpg",
+    "category": "sport/doppeldecker/",
+    "description": "Ein Doppeldecker. Genauere Details unbekannt.",
+    "tags": []
+  },
+  {
+    "name": "A-10 Thunderbolt II",
+    "img": "a10.jpg",
+    "category": "militaer/kalter_krieg/",
+    "description": "Die A-10 'Warthog' Thunderbolt II ist ein amerikanisches Bodenangriffsflugzeug aus den 70er-Jahren, was auch heute immer noch im Einsatz ist. Es zeichnet sich durch seine Gatling-Gun aus, die mit über 5000 RPM 30mm-Kugeln abfeuert.",
+    "tags": [
+      "fav"
+    ]
+  },
+  {
+    "name": "P-51",
+    "img": "p51.jpg",
+    "category": "militaer/zweiter_weltkrieg/",
+    "description": "Die P-51 ist ein amerikanisches Propellerflugzeug aus dem zweiten Weltkrieg. Auf dem Bild zu sehen mit einer hochmodernen F-35",
+    "tags": [
+      "fav"
+    ]
+  },
+  {
+    "name": "Fokker Dr1",
+    "img": "fokkerdr1.jpg",
+    "category": "militaer/erster_weltkrieg/",
+    "description": "Die Fokker Dr1 ist ein deutsches Dreidecker-Flugzeug aus dem ersten Weltkrieg. Im Bild zu sehen ist ein nachbau der Dr1 vom 'Roten Baron', dem berühmten deutschen Fliegerass.",
+    "tags": []
+  },
+  {
+    "name": "AH-64 Apache",
+    "img": "ah64.jpg",
+    "category": "militaer/kalter_krieg/",
+    "description": "Der amerikanische Boeing AH-64 Apache Kampfhubschrauber ist der wohl beühmsteste Kampfhubschrauber.",
+    "tags": []
+  },
+  {
+    "name": "MiG-19",
+    "img": "mig19.jpg",
+    "category": "militaer/kalter_krieg/",
+    "description": "Die sowjetische Mikojan-Gurewitsch MiG-19 aus dem Jahre 1955 ist ein jetbetriebenes Jagdflugzeug, was auch als Jagdbomber eingesetzt werden kann.",
+    "tags": []
+  },
+  {
+    "name": "Boeing 787 Dreamliner",
+    "img": "787.jpg",
+    "category": "airliner/boeing/",
+    "description": "Der Dreamliner ist ein modernes Passagierflugzeug für 200-300 Personen von Boeing.",
+    "tags": []
+  },
+  {
+    "name": "Segelflugzeug 1",
+    "img": "segel1.jpg",
+    "category": "sport/segelflugzeug/",
+    "description": "Ein kleines Segelflugzeug auf einer Wiese.",
+    "tags": []
+  },
+  {
+    "name": "Eurocopter 145",
+    "img": "ec145.jpg",
+    "category": "spezielle/helikopter/",
+    "description": "Der EC 145 ist ein vielseitig einsetzbarer Leichthubrschrauber.",
+    "tags": []
   }
 ]
