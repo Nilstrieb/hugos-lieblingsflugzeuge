@@ -3,8 +3,10 @@ import {
     Route, NavLink, HashRouter
 } from 'react-router-dom'
 import './app.css';
-import Modern from "./Militaer";
-import Home from "./Home";
+import Modern from './Militaer';
+import Home from './Home';
+import UeberHugo from './UeberHugo'
+import Planes from "./Planes";
 
 class App extends Component {
     render() {
@@ -13,11 +15,13 @@ class App extends Component {
                 <div id="parent">
                     <header>
                         <Navigation/>
-                        <h1>Hugos Lieblingsflugzeuge</h1>
+                        <h1>&#9992;&#65039;Hugos Lieblingsflugzeuge&#9992;&#65039;</h1>
                     </header>
                     <main>
                         <Route exact path="/" component={Home}/>
+                        <Route exact path="/hugo" component={UeberHugo}/>
                         <Route path="/militaer/modern" component={Modern}/>
+                        <Route path="/flugzeug" component={Planes}/>
                     </main>
                     <Footer/>
                 </div>
@@ -35,6 +39,9 @@ class Navigation extends Component {
                 <ul>
                     <li>
                         <NavLink to="/">Start</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/hugo">Über Hugo</NavLink>
                     </li>
                     <li>
                         <NavLink to="/">Militärflugzeuge</NavLink>

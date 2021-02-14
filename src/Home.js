@@ -1,15 +1,31 @@
 import React, {Component} from 'react';
 import ModelImage from './Plane';
+import planes from './planes.json'
 
 class Home extends Component {
+    constructor(props) {
+        super(props);
+        const favs = planes.filter(isFavPlane);
+        this.state = {
+            favs: favs
+        }
+    }
+
     render() {
+        const favs = this.state.favs
+            .map(x => <ModelImage src={x.category + x.img} name={x.name} cat={x.category}/>);
+
         return (
             <div>
-                <h1>Hugos Favoriten</h1>
-                <ModelImage src="f22.png" name="F-22 Raptor"/>
+                <h2>Hugos Favoriten</h2>
+                {favs}
             </div>
         );
     }
+}
+
+function isFavPlane(plane) {
+    return plane.tags.includes('fav');
 }
 
 export default Home;

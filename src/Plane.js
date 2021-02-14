@@ -11,19 +11,23 @@ class ModelImage extends Component {
         this.state = {
             name: '',
             src: '',
+            cat: '',
         }
     }
 
     static getDerivedStateFromProps(props) {
-        return {name: props.name, src: props.src};
+        return {name: props.name, src: props.src,
+            cat: (props.cat === undefined ? '' : props.cat),
+        };
     }
 
     render() {
+        const s = this.state;
         return (
-            <NavLink to={'/flugzeug/' + this.state.name} className="model">
-                <img src={process.env.PUBLIC_URL + '/img/' + this.state.src} alt={this.state.name}/>
+            <NavLink to={'/flugzeug/' + s.cat + s.name} className="model">
+                <img src={process.env.PUBLIC_URL + '/img/' + s.src} alt={this.state.name}/>
                 <div className="model-info">
-                    <span className="model-info-text">{this.state.name}</span>
+                    <span className="model-info-text">{s.name}</span>
                 </div>
             </NavLink>
         );

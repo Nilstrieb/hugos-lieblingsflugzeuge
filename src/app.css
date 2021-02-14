@@ -12,9 +12,13 @@ body {
 
 #parent {
     display: grid;
-    grid-template-rows: 150px auto;
+    grid-template-rows: 100px auto;
     grid-template-areas: "header"
                         "main";
+}
+
+p {
+    width: 1000px;
 }
 
 main {
@@ -32,10 +36,12 @@ header {
 
 header h1 {
     margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
 main {
-    margin: 10px;
+    margin-left: 10px;
 }
 
 /*Navigation*/

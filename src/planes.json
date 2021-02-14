@@ -1,0 +1,27 @@
+[
+  {
+    "name": "F-22 Raptor",
+    "img": "f22.png",
+    "category": "military/modern/",
+    "description": "Die F-22 Raptor ist ein Kampfflugzeug der 6. Generation der USA. Durch seine moderne Computersteuerung und Tarnkappentechnik ist es der Herr der Lüfte",
+    "tags": [
+      "fav"
+    ]
+  },
+  {
+    "name": "AV-8B Harrier",
+    "img": "harrier.jpg",
+    "category": "military/cold_war/",
+    "description": "Der Harrier ist ein Britisches Kampflugzeug. Er war der erste Jet (im aktiven Einsatz) mit der Fähigkeit, senkrecht wie ein Helikopter abzuheben und zu landen.",
+    "tags": [
+      "fav"
+    ]
+  },
+  {
+    "name": "Airbus A380",
+    "img": "a380.jpg",
+    "category": "airliner/airbus/",
+    "description": "Die A380 ist das grösste Passagierflugzeug der Welt.",
+    "tags": ["fav"]
+  }
+]

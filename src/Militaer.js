@@ -5,7 +5,7 @@ import ModelImage from './Plane'
 class Modern extends React.Component {
     render() {
         const items = Array(100).fill(1).map((x, y) => x + y)
-            .map(x => <ModelImage src="f22.png" name={'F' + (20 + x) + ' Raptor'}/>);
+            .map(x => <ModelImage src="military/modern/f22.png" name={'F' + (20 + x) + ' Raptor'}/>);
 
         return (
             <div>
