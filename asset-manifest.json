@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hugos-lieblingsflugzeuge/static/css/main.59edd118.chunk.css",
-    "main.js": "/hugos-lieblingsflugzeuge/static/js/main.d219f5db.chunk.js",
-    "main.js.map": "/hugos-lieblingsflugzeuge/static/js/main.d219f5db.chunk.js.map",
+    "main.css": "/hugos-lieblingsflugzeuge/static/css/main.dbf8cef6.chunk.css",
+    "main.js": "/hugos-lieblingsflugzeuge/static/js/main.4e52d939.chunk.js",
+    "main.js.map": "/hugos-lieblingsflugzeuge/static/js/main.4e52d939.chunk.js.map",
     "runtime-main.js": "/hugos-lieblingsflugzeuge/static/js/runtime-main.b33b4f25.js",
     "runtime-main.js.map": "/hugos-lieblingsflugzeuge/static/js/runtime-main.b33b4f25.js.map",
-    "static/js/2.3eb25868.chunk.js": "/hugos-lieblingsflugzeuge/static/js/2.3eb25868.chunk.js",
-    "static/js/2.3eb25868.chunk.js.map": "/hugos-lieblingsflugzeuge/static/js/2.3eb25868.chunk.js.map",
+    "static/js/2.61017981.chunk.js": "/hugos-lieblingsflugzeuge/static/js/2.61017981.chunk.js",
+    "static/js/2.61017981.chunk.js.map": "/hugos-lieblingsflugzeuge/static/js/2.61017981.chunk.js.map",
     "index.html": "/hugos-lieblingsflugzeuge/index.html",
-    "static/css/main.59edd118.chunk.css.map": "/hugos-lieblingsflugzeuge/static/css/main.59edd118.chunk.css.map",
-    "static/js/2.3eb25868.chunk.js.LICENSE.txt": "/hugos-lieblingsflugzeuge/static/js/2.3eb25868.chunk.js.LICENSE.txt"
+    "static/css/main.dbf8cef6.chunk.css.map": "/hugos-lieblingsflugzeuge/static/css/main.dbf8cef6.chunk.css.map",
+    "static/js/2.61017981.chunk.js.LICENSE.txt": "/hugos-lieblingsflugzeuge/static/js/2.61017981.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b33b4f25.js",
-    "static/js/2.3eb25868.chunk.js",
-    "static/css/main.59edd118.chunk.css",
-    "static/js/main.d219f5db.chunk.js"
+    "static/js/2.61017981.chunk.js",
+    "static/css/main.dbf8cef6.chunk.css",
+    "static/js/main.4e52d939.chunk.js"
   ]
 }
