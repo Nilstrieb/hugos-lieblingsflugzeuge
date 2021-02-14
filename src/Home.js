@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ModelImage from './Plane';
+import ModelImage from './PlanePreview';
 import planes from './planes.json'
 
 class Home extends Component {

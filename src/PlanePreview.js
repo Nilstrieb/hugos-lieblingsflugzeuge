@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {
-    Route, NavLink, HashRouter
+    NavLink
 } from 'react-router-dom'
-import './Plane.css'
+import './plane_preview.css'
 
 
 class ModelImage extends Component {

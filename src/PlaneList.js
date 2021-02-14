@@ -1,8 +1,8 @@
-import React from 'react';
-import ModelImage from './Plane'
+import React, {Component} from 'react';
+import ModelImage from './PlanePreview'
 
 
-class Modern extends React.Component {
+class PlaneList extends Component {
     render() {
         const items = Array(100).fill(1).map((x, y) => x + y)
             .map(x => <ModelImage src="military/modern/f22.png" name={'F' + (20 + x) + ' Raptor'}/>);
@@ -16,4 +16,4 @@ class Modern extends React.Component {
     }
 }
 
-export default Modern;
+export default PlaneList;

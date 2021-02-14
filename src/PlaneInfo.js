@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import planes from './planes.json'
+import planes from './planes.json';
+import './plane.css';
 
 class Planes extends Component {
     render() {
@@ -25,7 +26,7 @@ class Planes extends Component {
             content =
                 <div>
                     <h2>{plane.name}</h2>
-                    <img src={imgPath} alt={'Bild von ' + plane.name}/>
+                    <img src={imgPath} alt={'Bild von ' + plane.name} className="plane-image"/>
                     <p>{plane.description}</p>
                 </div>
             ;
