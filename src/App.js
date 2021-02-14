@@ -20,8 +20,7 @@ class App extends Component {
                     <main>
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/hugo" component={UeberHugo}/>
-                        <Route path="/militaer/modern" component={PlaneList}/>
-                        <Route path="/flugzeuge" component={Planes}/>
+                        <Route path="/flugzeuge" component={PlaneList}/>
                         <Route path="/flugzeug" component={Planes}/>
                     </main>
                     <Footer/>
@@ -45,38 +44,38 @@ class Navigation extends Component {
                         <NavLink to="/hugo">Über Hugo</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/">Militärflugzeuge</NavLink>
+                        <NavLink to="/flugzeuge/militaer">Militärflugzeuge</NavLink>
                         <div className="content">
-                            <NavLink to="/">Erste Weltkrieg</NavLink>
-                            <NavLink to="/">Zwischenkriegszeit</NavLink>
-                            <NavLink to="/">Zweiter Weltkrieg</NavLink>
-                            <NavLink to="/">Kalter Krieg</NavLink>
-                            <NavLink to="/militaer/modern">Moderne</NavLink>
+                            <NavLink to="/flugzeuge/militaer/erster_weltkrieg">Erste Weltkrieg</NavLink>
+                            <NavLink to="/flugzeuge/militaer/zwischenkriegszeit">Zwischenkriegszeit</NavLink>
+                            <NavLink to="/flugzeuge/militaer/zweiter_weltkrieg">Zweiter Weltkrieg</NavLink>
+                            <NavLink to="/flugzeuge/militaer/kalter_krieg">Kalter Krieg</NavLink>
+                            <NavLink to="/flugzeuge/militaer/modern">Moderne</NavLink>
                         </div>
                     </li>
                     <li>
-                        <NavLink to="/">Airliner</NavLink>
+                        <NavLink to="/flugzeuge/airliner">Airliner</NavLink>
                         <div className="content">
-                            <NavLink to="/">Boeing</NavLink>
-                            <NavLink to="/">Airbus</NavLink>
-                            <NavLink to="/">Andere</NavLink>
+                            <NavLink to="/flugzeuge/airliner/boeing">Boeing</NavLink>
+                            <NavLink to="/flugzeuge/airliner/airbus">Airbus</NavLink>
+                            <NavLink to="/flugzeuge/airliner/andere">Andere</NavLink>
                         </div>
                     </li>
                     <li>
-                        <NavLink to="/">Sportflugzeuge</NavLink>
+                        <NavLink to="/flugzeuge/sport">Sportflugzeuge</NavLink>
                         <div className="content">
-                            <NavLink to="/">Doppeldecker</NavLink>
-                            <NavLink to="/">Propellerflugzeuge</NavLink>
-                            <NavLink to="/">Segelflugzeuge</NavLink>
-                            <NavLink to="/">Andere</NavLink>
+                            <NavLink to="/flugzeuge/sport/doppeldecker">Doppeldecker</NavLink>
+                            <NavLink to="/flugzeuge/sport/propellerflugzeuge">Propellerflugzeuge</NavLink>
+                            <NavLink to="/flugzeuge/sport/segelflugzeuge">Segelflugzeuge</NavLink>
+                            <NavLink to="/flugzeuge/sport/andere">Andere</NavLink>
                         </div>
                     </li>
                     <li>
-                        <NavLink to="/">Spezielle</NavLink>
+                        <NavLink to="/flugzeuge/speziell">Spezielle</NavLink>
                         <div className="content">
-                            <NavLink to="/">Helikopter</NavLink>
-                            <NavLink to="/">Zeppeline</NavLink>
-                            <NavLink to="/">Andere</NavLink>
+                            <NavLink to="/flugzeuge/spezielle/helikopter">Helikopter</NavLink>
+                            <NavLink to="/flugzeuge/spezielle/zeppeline">Zeppeline</NavLink>
+                            <NavLink to="/flugzeuge/spezielle/andere">Andere</NavLink>
                         </div>
                     </li>
                 </ul>

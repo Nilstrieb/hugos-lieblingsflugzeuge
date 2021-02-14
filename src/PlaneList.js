@@ -1,16 +1,27 @@
 import React, {Component} from 'react';
 import ModelImage from './PlanePreview'
+import planes from './planes.json';
 
 
 class PlaneList extends Component {
     render() {
-        const items = Array(100).fill(1).map((x, y) => x + y)
-            .map(x => <ModelImage src="military/modern/f22.png" name={'F' + (20 + x) + ' Raptor'}/>);
+        const loc = this.props.location.pathname;
+        const cat = loc.replaceAll('/flugzeuge/', '') + '/';
+
+        let matches = [];
+
+        for (const e of planes) {
+            if (e.category.startsWith(cat)) {
+                matches.push(e);
+            }
+        }
+
+        matches = matches.map(x => <ModelImage src={x.category + x.img} name={x.name} cat={x.category} key={x.category + x.name}/>);
+
 
         return (
             <div>
-                {items}
-                <ModelImage src="harrier.jpg" name="AV-8B Harrier"/>
+                {matches}
             </div>
         )
     }

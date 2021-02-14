@@ -13,7 +13,7 @@ class Home extends Component {
 
     render() {
         const favs = this.state.favs
-            .map(x => <ModelImage src={x.category + x.img} name={x.name} cat={x.category}/>);
+            .map(x => <ModelImage src={x.category + x.img} name={x.name} cat={x.category} key={x.category + x.name}/>);
 
         return (
             <div>
