@@ -66,7 +66,7 @@ class Navigation extends Component {
                         <div className="content">
                             <NavLink to="/flugzeuge/sport/doppeldecker">Doppeldecker</NavLink>
                             <NavLink to="/flugzeuge/sport/propellerflugzeuge">Propellerflugzeuge</NavLink>
-                            <NavLink to="/flugzeuge/sport/segelflugzeuge">Segelflugzeuge</NavLink>
+                            <NavLink to="/flugzeuge/sport/segelflugzeug">Segelflugzeuge</NavLink>
                             <NavLink to="/flugzeuge/sport/andere">Andere</NavLink>
                         </div>
                     </li>
