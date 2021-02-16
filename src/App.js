@@ -14,8 +14,10 @@ class App extends Component {
             <HashRouter>
                 <div id="parent">
                     <header>
+                        <div>
+                            <h1>&#9992;&#65039;Hugos Lieblingsflugzeuge&#9992;&#65039;</h1>
+                        </div>
                         <Navigation/>
-                        <h1>&#9992;&#65039;Hugos Lieblingsflugzeuge&#9992;&#65039;</h1>
                     </header>
                     <main>
                         <Route exact path="/" component={Home}/>
@@ -44,10 +46,10 @@ class Navigation extends Component {
                         <NavLink to="/hugo">Über Hugo</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/flugzeuge/militaer">Militärflugzeuge</NavLink>
+                        <NavLink to="/flugzeuge/militaer">Militär</NavLink>
                         <div className="content">
                             <NavLink to="/flugzeuge/militaer/erster_weltkrieg">Erster Weltkrieg</NavLink>
-                            <NavLink to="/flugzeuge/militaer/zwischenkriegszeit">Zwischenkriegszeit</NavLink>
+                            <NavLink to="/flugzeuge/militaer/zwischenkriegszeit">Zwischenkriegs&#8203;zeit</NavLink>
                             <NavLink to="/flugzeuge/militaer/zweiter_weltkrieg">Zweiter Weltkrieg</NavLink>
                             <NavLink to="/flugzeuge/militaer/kalter_krieg">Kalter Krieg</NavLink>
                             <NavLink to="/flugzeuge/militaer/modern">Moderne</NavLink>
@@ -62,11 +64,11 @@ class Navigation extends Component {
                         </div>
                     </li>
                     <li>
-                        <NavLink to="/flugzeuge/sport">Sportflugzeuge</NavLink>
+                        <NavLink to="/flugzeuge/sport">Sport</NavLink>
                         <div className="content">
                             <NavLink to="/flugzeuge/sport/doppeldecker">Doppeldecker</NavLink>
-                            <NavLink to="/flugzeuge/sport/propellerflugzeuge">Propellerflugzeuge</NavLink>
-                            <NavLink to="/flugzeuge/sport/segelflugzeug">Segelflugzeuge</NavLink>
+                            <NavLink to="/flugzeuge/sport/propellerflugzeuge">Propeller</NavLink>
+                            <NavLink to="/flugzeuge/sport/segelflugzeug">Segel</NavLink>
                             <NavLink to="/flugzeuge/sport/andere">Andere</NavLink>
                         </div>
                     </li>

@@ -10,34 +10,37 @@ body {
     color: white;
 }
 
-#parent {
-    display: grid;
-    grid-template-rows: 100px auto;
-    grid-template-areas: "header"
-                        "main";
-}
-
 p {
     width: 1000px;
 }
 
 main {
     grid-area: main;
+    margin-top: 100px;
 }
 
 :root {
-    --nav-color: rgb(176, 194, 206);
     --nav-hover-color: darkgrey;
 }
 
 header {
     grid-area: header;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    display: grid;
+    grid-template-columns: 500px auto;
+    overflow: visible;
+
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 header h1 {
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-bottom: 0;
+    margin: 0;
+    width: 500px;
 }
 
 main {
@@ -50,14 +53,8 @@ nav {
     margin: 0;
     padding: 0;
     overflow: visible;
-    background-color: var(--nav-color);
-    width: 100%;
+    display: inline-block;
 
-    position: fixed;
-    top: 0;
-    height: 50px;
-
-    z-index: 1;
 }
 
 /*main ul*/
@@ -65,59 +62,52 @@ nav ul {
     height: 100%;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 /*nav li item*/
 nav ul li {
     float: left;
-    border-right: 1px solid gray;
-    height: 100%;
-    width: 15%;
     position: relative;
     display: inline-block;
-
+    width: 200px;
     font-size: 1.8em;
-    background-color: var(--nav-color);
     cursor: pointer;
     margin: auto;
 }
 
-/*nav li item on hover*/
-nav ul li:hover {
-    background-color: darkgray;
-    color: var(--nav-hover-color);
-    transition-duration: 0.4s;
-}
 
 /*all nav a*/
 nav ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: black;
-    width: 100%;
-    height: 100%;
-    background-color: var(--nav-color);
-    border: none;
-    cursor: pointer;
-}
-
-/*all nav a focus - remove outline so it looks like a normal link*/
-nav ul li a:focus {
-    outline: 0;
+    color: white;
+    transition-duration: 0.3s;
 }
 
 /*all nav a hover*/
 nav ul li a:hover {
     background-color: var(--nav-hover-color);
+    transition-duration: 0.3s;
+}
+
+/*Only on the top elements*/
+nav ul li > a {
+    border-right: 1px solid gray;
+}
+
+/*don't show border on the right*/
+nav ul li:last-child > a {
+    border: none;
 }
 
 /*drop menu*/
 nav ul li .content {
     display: none;
-    background-color: var(--nav-color);
     z-index: 1;
     width: 100%;
+    background-color: #282c34;
 }
 
 /*drop menu main hover*/
