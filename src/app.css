@@ -20,7 +20,7 @@ main {
 }
 
 :root {
-    --nav-hover-color: darkgrey;
+    --nav-hover-color: #8997b3;
 }
 
 header {
@@ -29,13 +29,14 @@ header {
     top: 0;
     width: 100%;
     z-index: 1;
-
+    background-color: #282c34;
+    overflow: visible;
     display: grid;
     grid-template-columns: 500px auto;
-    overflow: visible;
-
-    margin-top: 10px;
+    padding-top: 10px;
     margin-left: 10px;
+
+    height: 50px;
 }
 
 header h1 {
@@ -54,7 +55,6 @@ nav {
     padding: 0;
     overflow: visible;
     display: inline-block;
-
 }
 
 /*main ul*/
@@ -74,6 +74,7 @@ nav ul li {
     font-size: 1.8em;
     cursor: pointer;
     margin: auto;
+
 }
 
 
@@ -107,7 +108,7 @@ nav ul li .content {
     display: none;
     z-index: 1;
     width: 100%;
-    background-color: #282c34;
+    background-color: #3b414d;
 }
 
 /*drop menu main hover*/
@@ -118,4 +119,9 @@ nav ul li:hover .content {
 /*drop menu a*/
 nav ul li .content a {
     padding: 8px 0 8px 0;
+}
+
+footer {
+    margin-left: 10px;
+    margin-bottom: 100px;
 }
