@@ -1,30 +1,23 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ModelImage from './PlanePreview'
 import planes from './planes.json';
+import {useLocation} from "react-router-dom";
 
 
-class PlaneList extends Component {
-    render() {
-        const loc = this.props.location.pathname;
-        const cat = loc.replaceAll('/flugzeuge/', '') + '/';
+const PlaneList = () => {
+    const route = useLocation().pathname.replaceAll("/flugzeuge/", "");
 
-        let matches = [];
+    const matches = planes
+        .filter(e => e.category.startsWith(route))
+        .map(x => <ModelImage src={x.category + x.img} name={x.name} cat={x.category}
+                              key={x.category + x.name}/>);
 
-        for (const e of planes) {
-            if (e.category.startsWith(cat)) {
-                matches.push(e);
-            }
-        }
-
-        matches = matches.map(x => <ModelImage src={x.category + x.img} name={x.name} cat={x.category} key={x.category + x.name}/>);
-
-
-        return (
-            <div>
-                {matches}
-            </div>
-        )
-    }
+    return (
+        <div>
+            {matches}
+        </div>
+    )
 }
+
 
 export default PlaneList;
